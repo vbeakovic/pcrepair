@@ -1,0 +1,23 @@
+{
+  "name": "pcrepair",
+  "version": "0.0.0",
+  "description": "This is a node.js project that is part of the [Projects in ExpressJS Video](https://www.packtpub.com/web-development/projects-expressjs-video) course published by [Pack publishing](https://www.packtpub.com/)",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbeakovic/pcrepair.git"
+  },
+  "author": "Valter Beakovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbeakovic/pcrepair/issues"
+  },
+  "homepage": "https://github.com/vbeakovic/pcrepair#readme"
+}
