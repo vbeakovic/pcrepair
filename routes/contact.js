@@ -4,9 +4,9 @@ var router = express.Router();
 /* GET home page. */
 
 router.get('/', function(req, res, next) {
-  res.render('index', {
-    title: 'Home',
-    isHome: true,
+  res.render('contact', {
+    title: 'Contact',
+    isContact: true,
     currentYear: new Date().getFullYear()
   });
 });
