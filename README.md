@@ -7,3 +7,7 @@ This is a node.js project that is part of the [Projects in ExpressJS Video](http
 * In the video course the project uses pug as template engine. The code in the repo uses handlebars instead.
 
 * The files were coded manually and not by using express-generator. Mainly as an exercise.
+
+* Bootsrap 4 is used for no particular reason
+
+* Cards are used instead of wells.
