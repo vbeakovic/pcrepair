@@ -4,9 +4,38 @@
   <body>
     {{> navbar}}
     {{> header}}
-    <p>
-      Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price.
-    </p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card bg-light mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{services_cards services 0 "name"}}</h5>
+            <p class="card-text">{{{services_cards services 0 "description"}}}</p>
+            <p class="card-text">{{{services_cards services 0 "price_range"}}}</p>
+          </div>
+        </div>
+        <div class="card bg-light mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{services_cards services 1 "name"}}</h5>
+            <p class="card-text">{{{services_cards services 1 "description"}}}</p>
+            <p class="card-text">{{{services_cards services 1 "price_range"}}}</p>
+          </div>
+        </div>
+        <div class="card bg-light mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{services_cards services 2 "name"}}</h5>
+            <p class="card-text">{{{services_cards services 2 "description"}}}</p>
+            <p class="card-text">{{{services_cards services 2 "price_range"}}}</p>
+          </div>
+        </div>
+        <div class="card bg-light mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{services_cards services 3 "name"}}</h5>
+            <p class="card-text">{{{services_cards services 3 "description"}}}</p>
+            <p class="card-text">{{{services_cards services 3 "price_range"}}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
     {{> footer}}
   </body>
 </html>

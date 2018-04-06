@@ -10,7 +10,7 @@ var index = require('./routes/index');
 var about = require('./routes/about');
 var services = require('./routes/services');
 var contact = require('./routes/contact');
-var users = require('./routes/users');
+
 
 var app = express();
 
@@ -21,8 +21,8 @@ app.set('view engine', 'hbs');
 hbs.registerHelper('getCurrentYear', () => {
   return new Date().getFullYear();
 });
-hbs.registerHelper('check_title', (title) => {
-  return title;
+hbs.registerHelper('services_cards', (items, position, property) => {
+  return items[position][property];
 });
 
 
@@ -39,7 +39,6 @@ app.use('/', index);
 app.use('/about', about);
 app.use('/services', services);
 app.use('/contact', contact);
-app.use('/users', users);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
